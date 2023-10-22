@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <title>Главная страница</title>
+    <meta name="description" content="Описание главной страницы"/>
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet"/>
+    <link href="./css/main.min.css" rel="stylesheet"/>
+  </head>
+  <body class="body">
+    <div class="wrapper">
+      <section class="content">
+        <h1 data-lang="home_page-title"></h1>
+        <div class="product-list">
+          <div class="product-list__item">
+            <div class="product-list__item-thumbnail"><picture><source srcset="./img/unlimited-art.webp" type="image/webp"><img src="./img/unlimited-art.jpg" alt="Unlimited Art Creation"/></picture></div>
+            <div class="product-list__item-title" data-lang="home_unlim-art"></div>
+          </div>
+          <div class="product-list__item">
+            <div class="product-list__item-thumbnail"><picture><source srcset="./img/exsclysive-styles.webp" type="image/webp"><img src="./img/exsclysive-styles.jpg" alt="Exclusive Styles"/></picture></div>
+            <div class="product-list__item-title" data-lang="home_exclusive-style"></div>
+          </div>
+          <div class="product-list__item">
+            <div class="product-list__item-thumbnail"><picture><source srcset="./img/magic-avatars.webp" type="image/webp"><img src="./img/magic-avatars.jpg" alt="Magic Avatars With 20% Off"/></picture></div>
+            <div class="product-list__item-title" data-lang="home_magic"></div>
+          </div>
+        </div>
+        <div class="product-links">
+          <div class="product-links__item active" data-link="https://apple.com">
+            <div class="product-links__item-name">
+              <div class="product-links__item-name-title" data-lang="home_yearly-access"></div>
+              <div class="product-links__item-name-desc" data-lang="home_yearly-desc"></div>
+            </div>
+            <div class="product-links__item-price">$0.49<span data-lang="home_yearly-per-week"></span></div>
+            <div class="product-links__item-label" data-lang="home_best-offer"></div>
+          </div>
+          <div class="product-links__item" data-link="https://google.com">
+            <div class="product-links__item-name">
+              <div class="product-links__item-name-title" data-lang="home_weekly-access"></div>
+            </div>
+            <div class="product-links__item-price">$6.99<span data-lang="home_weekly-per-week"></span></div>
+          </div><a class="btn" href="https://apple.com" data-lang="home_button"></a>
+        </div><a class="btn__close" href="##"></a>
+      </section>
+      <footer class="footer">
+        <div class="footer__list">
+          <div class="footer__list-item"><a class="footer__list-link" href="##" data-lang="footer_terms"></a></div>
+          <div class="footer__list-item"><a class="footer__list-link" href="##" data-lang="footer_policy"></a></div>
+          <div class="footer__list-item"><a class="footer__list-link" href="##" data-lang="footer_restore">Restore</a></div>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/main.min.js"></script>
+  </body>
+</html>
