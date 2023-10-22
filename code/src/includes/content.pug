@@ -1,0 +1,39 @@
+//- .lang
+//-     div(data-btn="en").lang__item en
+//-     div(data-btn="de").lang__item de
+
+
+h1(data-lang="home_page-title")
+
+
+.product-list
+    .product-list__item
+        .product-list__item-thumbnail
+            img(src="./img/unlimited-art.jpg", alt="Unlimited Art Creation")
+        div(data-lang="home_unlim-art").product-list__item-title
+    .product-list__item
+        .product-list__item-thumbnail
+            img(src="./img/exsclysive-styles.jpg", alt="Exclusive Styles")
+        div(data-lang="home_exclusive-style").product-list__item-title
+    .product-list__item
+        .product-list__item-thumbnail
+            img(src="./img/magic-avatars.jpg", alt="Magic Avatars With 20% Off")
+        div(data-lang="home_magic").product-list__item-title
+
+.product-links
+    div(data-link="https://apple.com").product-links__item.active
+        .product-links__item-name
+            div(data-lang="home_yearly-access").product-links__item-name-title
+            div(data-lang="home_yearly-desc").product-links__item-name-desc
+        .product-links__item-price $0.49
+            span(data-lang="home_yearly-per-week")
+        div(data-lang="home_best-offer").product-links__item-label
+    div(data-link="https://google.com").product-links__item
+        .product-links__item-name
+            div(data-lang="home_weekly-access").product-links__item-name-title
+        .product-links__item-price $6.99
+            span(data-lang="home_weekly-per-week")
+
+    a(href="https://apple.com" data-lang="home_button").btn
+
+a(href="##").btn__close

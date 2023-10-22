@@ -1,0 +1,81 @@
+.product-links
+    margin-bottom 4.198vh
+    width 100%
+    display flex
+    flex-direction column
+
+    @media(min-height 800px)
+        margin-bottom 5.213vh
+
+    &__item
+        margin-top 8px
+        padding 0 24px
+        width 100%
+        height 58px
+        display flex
+        align-items center
+        justify-content space-between
+        line-height normal
+        position relative
+        background-color rgba($white, 0.1)
+        border 1px solid transparent
+        border-radius 30px
+        box-sizing border-box
+        transition all 300ms
+
+        &:first-child
+            margin-top 0
+
+        &.active
+            background-color rgba($white, 0.3)
+            border 1px solid $white
+
+        &-label
+            padding 0 23px
+            width auto
+            height 20px
+            display flex
+            align-items center
+            color #141131
+            line-height normal
+            font-size 13px
+            font-weight 700
+            text-transform uppercase
+            white-space nowrap
+            position absolute
+            top -10px
+            right 24px
+            background-color $white
+            box-shadow 0 1px 6px 0 rgba($dark, 0.5)
+            border-radius 10px
+
+        &-name
+            &-title
+                font-weight 600
+                text-transform uppercase
+
+            &-desc
+                margin-top 2px
+                opacity 0.7
+
+        &-price
+            width 65px
+            opacity 0.7
+
+            @media(min-width 360px)
+                width 100px
+
+            span
+                display block
+
+html[lang=fr]
+    .product-links__item-name-desc
+        font-size 15px
+
+html[lang=ja]
+    .product-links__item
+        &-name
+            line-height 20px
+
+        &-label
+            top -12px

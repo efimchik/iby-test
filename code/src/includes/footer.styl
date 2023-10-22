@@ -1,0 +1,48 @@
+.footer
+    padding 0 24px 1.499vh
+    width 100%
+    box-sizing border-box
+
+    @media(min-height 800px)
+        padding 0 24px 3.555vh
+
+    &__list
+        width 100%
+        display flex
+        align-items center
+        justify-content center
+
+        &-item
+            margin-left 30px
+            line-height normal
+            font-size 12.5px
+            letter-spacing 0.577px
+
+            &:first-child
+                margin-left 0
+
+        &-link
+            color rgba($white, 0.5)
+
+html[lang=de]
+    .footer__list-item
+        margin-left 10px
+        font-size 11px
+
+        &:first-child
+            margin-left 0
+
+html[lang=fr]
+    .footer__list-item
+        margin-left 10px
+        font-size 11px
+
+        &:first-child
+            margin-left 0
+
+html[lang=pt]
+    .footer__list-item
+        margin-left 25px
+
+        &:first-child
+            margin-left 0

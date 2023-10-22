@@ -1,0 +1,20 @@
+{
+    "global": {
+        "lang": "en",
+        "title": "Страница PUG",
+        "styles": [
+            "./css/main.min.css"
+        ],
+        "scripts": [
+            "./js/main.min.js"
+        ],
+        "fonts": [
+            "https://fonts.cdnfonts.com/css/sf-pro-display"
+        ]
+    },
+    "main": {
+        "title": "Главная страница",
+        "description": "Описание главной страницы",
+        "menuIndex": 0
+    }
+}
